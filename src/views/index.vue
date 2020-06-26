@@ -1,7 +1,6 @@
 <template>
   <div class="nixom">
 
-
 <!-- Footer Navbar -->
     <div>
       <b-navbar toggleable="lg" type="dark" variant="primary" fixed="bottom">
@@ -10,9 +9,9 @@
           <b-navbar-nav class="mr-auto ml-auto">
             <b-navbar-nav>
               <b-nav-item >
-                <a href="https://www.platiniumnets.xyz">
+                <a href="https://www.dammyton.netlify.app">
                 Designed and Developed by
-                <i style="font-size:10px" class="fa fa-copyright ml-1"></i> platiniumnets</a>
+                <i style="font-size:10px" class="fa fa-copyright ml-1"></i> Dammyton</a>
               </b-nav-item>
             </b-navbar-nav>
           </b-navbar-nav>
@@ -23,81 +22,7 @@
 
 <!-- Celebrant's Picture -->
 <div class="bg">
-  <!-- <center>
-    <img
-                          src="../assets/IMG-20191031-WA0006.jpg"
-                          alt="user"
-                          width="150px"
-                          height="150px"
-                          class="rounded-circle mt-5"
-                        />
-  </center> -->
 </div>
-
-<!--
-    <div class="well">
-      <b-container-fluid>
-        <b-row style="margin-left:0px;margin-right: 0; !important;">
-          <b-col sm="3" md="3"></b-col>
-
-          <b-col sm="6" md="6" style="padding:100px 0px;">
-            <div class="text-center">
-              <span style="font-family:'Noto sans',serif;font-size:50px ">Hi,</span>
-              <h4 style="font-family:'Noto sans'">I'm DAMILOLA OWOLABI</h4>
-            </div>
-            <div>
-              <center>
-                <b-card style="width:75%">
-                  <b-container>
-                    <b-row>
-                      <b-col md="4" sm="4">
-                        <img
-                          src="../assets/lekan-birthday.png"
-                          alt="user"
-                          width="150px"
-                          height="150px"
-                          class="rounded-circle"
-                          align="center"
-                        />
-                      </b-col>
-                      <b-col md="8" sm="8">
-                        <p
-                          class="mt-3"
-                          style="color:#007bff;margin-bottom: 0.01rem;"
-                        >Software Developer</p> -->
-                        <!-- <p>Software Developer</p>
-                          <p>Wordpress Developer</p>
-                        <p>JavaScript Geek</p>-->
-                        <!-- <p
-                          style="
-                        margin-bottom: 0.01rem;
-                        color:#3e5569;
-                        font-size:12px;
-                        font-family:'Noto sans',sans-seriff
-                        "
-                        >JavaScript Geek</p>
-                        <i style="color:#007bff; font-size:10px" class="fa fa-map-marker"></i>
-                        <span
-                          style="color:#3e5569;
-                        font-size:12px;
-                        font-family:'Noto sans',sans-seriff"
-                        >Lagos, Nigeria.</span>
-                        <br />
-                        <p style="margin-top: 1rem;margin-bottom:0">
-                          <a class="btn btn-primary btn-sm get" href="#portfolio">Get Started</a>
-                        </p>
-                      </b-col>
-                    </b-row>
-                  </b-container>
-                </b-card>
-              </center>
-            </div>
-          </b-col>
-          <b-col class="welcome" sm="3" md="3"></b-col>
-        </b-row>
-      </b-container-fluid>
-    </div>
-    -->
 
 <!-- Birthday Wish Form -->
     <div id="contact">
@@ -223,56 +148,11 @@ export default {
     reload() {
       return window.location.reload();
     }
-    // search: function() {
-    //   axios
-    //     .post(`https://birthday-app.free.beeceptor.com/comments`)
-    //     // .post(`https://5e97081077f543001633903f.mockapi.io/birthday/birthday.io`)
-    //     .then(response => {
-    //       console.log(response.data,"birthday")
-    //       res.json(response)
-    //       this.results = response.data;
-    //     });
-
-    //     axios
-    //     .get(`https://birthday-app.free.beeceptor.com/comments`)
-    //     // .post(`https://5e97081077f543001633903f.mockapi.io/birthday/birthday.io`)
-    //     .then(response => {
-    //       console.log(response.data,"birthday")
-    //       res.json(response)
-    //       this.results = response.data;
-    //     });
-    // }
   }
 };
 </script>
 <style scoped>
-/* @media (min-width: 300px) {
-  .welcome{
-  background: url('../assets/wave.png');
-  width: auto;
-  height: 300px;
-  background-position: center;
-}
-.well { */
-/* background: linear-gradient(to top, #bec8ca, #00d0ff); */
-/* width: auto;
-  height: 350px;
-  background-position: center;
-  position: relative;
-  color: #fff;
-  background: linear-gradient(to top, #86b2e0, #007bff);
-  background-attachment: fixed;
-}
-}
-@media (min-width: 300px) {
-  img{
-  width: 50px;
-  height: 50px;
-}
-.ful{
-  width:20px;
-}
-}*/
+
 a{
   color: #ffffff !important;
   background-color: none !important;
@@ -409,146 +289,7 @@ p.card-text {
   border-radius: 0px 30px 0px 30px;
   background: #007bff;
 }
-.dshh {
-  border-radius: 0px 30px 0px 30px;
-  width: 90%;
-  /* height: 280px; */
-}
-.dshhh {
-  border-radius: 0px 30px 0px 30px;
-  width: 90%;
-  /* height: 375px; */
-}
-.dsh2 {
-  border-radius: 0px 30px 0px 30px;
-  padding: auto;
-  height: 40px;
-  width: 120px;
-  background-color: #01b5ff;
-  color: white;
-}
-.dsh2 > div.card-body {
-  padding: 10px 0;
-}
-.dsh3 {
-  border-radius: 50%;
-  height: 80px;
-  width: 80px !important;
-}
-.dsh4 {
-  border-radius: 0px 40px 0px 40px;
-  width: 100%;
-  height: 70px;
-}
-.myuser {
-  font-size: 40px;
-}
-.name {
-  font-size: 24px;
-}
-.fa-connectdevelop {
-  font-size: 18px;
-  font-weight: 900;
-}
-.send {
-  color: #fff;
-  background: #007bff;
-  padding: 5px 20px;
-  border-radius: 20px;
-  border-color: #007bff;
-  display: inline-block;
-  user-select: none;
-  font-size: 1rem;
-  font-weight: 700;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
-}
-.send:hover {
-  background: #ffffff;
-  color: #007bff;
-  border: 1px solid #007bff;
-}
-.quote {
-  color: #fff;
-  background: #01b5ff;
-  padding: 5px 20px;
-  border-radius: 20px;
-  border-color: #01b5ff;
-  display: inline-block;
-  user-select: none;
-  font-size: 10px;
-  font-weight: 700;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
-}
-.quote:hover {
-  background: #ffffff;
-  color: #01b5ff;
-  border: 1px solid #01b5ff;
-}
-.quote2 {
-  color: #fff;
-  background: orange;
-  padding: 5px 20px;
-  border-radius: 20px;
-  border-color: orange;
-  display: inline-block;
-  user-select: none;
-  font-size: 10px;
-  font-weight: 700;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
-}
-.quote2:hover {
-  background: #ffffff;
-  color: orange;
-  border: 1px solid orange;
-}
-.quote3 {
-  color: #fff;
-  background: darkcyan;
-  padding: 5px 20px;
-  border-radius: 20px;
-  border-color: darkcyan;
-  display: inline-block;
-  user-select: none;
-  font-size: 10px;
-  font-weight: 700;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
-}
-.quote3:hover {
-  background: #ffffff;
-  color: darkcyan;
-  border: 1px solid darkcyan;
-}
-.visit {
-  color: #fff;
-  background: #007bff;
-  padding: 5px 17px;
-  border-radius: 20px;
-  border-color: #007bff;
-  display: inline-block;
-  user-select: none;
-  font-size: 9px;
-  font-weight: 500;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
-}
-.visit:hover {
-  background: #ffffff;
-  color: #007bff;
-  border: 1px solid #007bff;
-}
-h6 {
-  font-weight: 900;
-  font-size: 25px;
-}
+
 
 
 
@@ -562,23 +303,7 @@ h6 {
     background-position: inherit;
     height:220px;
     width: 100%;
-    /* -webkit-animation: mymove 5s infinite; */ /*Chrome, Safari, Opera */
-   /* animation: mymove 5s infinite;*/
 }
  }
 
-/* Chrome, Safari, Opera */
-/* @-webkit-keyframes mymove {
-    from {background:  url('../assets/ddd.png');}
-    to {background: url('../assets/IMG-20191031-WA0006.jpg')}
-} */
-
-/* Standard syntax */
-/*@keyframes mymove {
-    from {background:  url('../assets/ddd.png');}
-    to {background:  url('../assets/IMG-20191031-WA0006.jpg');}
-}
-
-
-*/
 </style>
